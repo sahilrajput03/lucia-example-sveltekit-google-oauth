@@ -6,7 +6,7 @@
 		"dev": "vite dev",
 		"build": "vite build; npm run setup:sqlitedb; ls",
 		"setup:sqlitedb": "./sqlite3-for-server/sqlite3 sqlite.db < setup.sql",
-		"preview": "vite preview",
+		"preview": "vite preview --host",
 		"check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
 		"check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch",
 		"lint": "prettier --check .",
