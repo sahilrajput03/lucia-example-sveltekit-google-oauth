@@ -1,11 +1,6 @@
 # Sahil
 
-❤️ Redirect url need to be setup in google cloud console as:
-
-- "http://localhost:5173/login/google/callback"
-- "https://lucia-example-sveltekit-google-oauth.onrender.com/login/google/callback"
-
-In local code we specify it in file - `src/lib/server/oauth.ts`
+❤️ Redirect url need to be setup in google cloud console and we in local code we specify it in file - `src/lib/server/oauth.ts`. Please check `.env.example` file to know example values.
 
 Forked from: [https://github.com/lucia-auth/example-sveltekit-google-oauth](https://github.com/lucia-auth/example-sveltekit-google-oauth).
 
