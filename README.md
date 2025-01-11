@@ -4,6 +4,8 @@
 
 Forked from: [https://github.com/lucia-auth/example-sveltekit-google-oauth](https://github.com/lucia-auth/example-sveltekit-google-oauth).
 
+**Note:** _For render.com deployment: I am setting preview port as `10000` in `vite.config.ts` file._
+
 # Google OAuth example in SvelteKit
 
 Uses SQLite. Rate limiting is implemented using JavaScript `Map`.

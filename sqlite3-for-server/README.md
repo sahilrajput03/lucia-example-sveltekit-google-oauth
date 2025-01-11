@@ -1,6 +1,6 @@
 # Readme
 
-The `sqlite3` file in this is to initiate sqlite.db file on vercel server.
+The `sqlite3` file in this is to initiate sqlite.db file on server for deployment purpose.
 
 Downloaded from:
 
