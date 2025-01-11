@@ -1,7 +1,7 @@
 import { Google } from "arctic";
-import { ORIGIN, GOOGLE_CLIENT_ID, GOOGLE_CLIENT_SECRET, GOOGLE_REDIRECT_URI } from "$env/static/private";
+import { GOOGLE_CLIENT_ID, GOOGLE_CLIENT_SECRET, GOOGLE_REDIRECT_URI } from "$env/static/private";
 
-console.log('ORIGIN?', ORIGIN)
+console.log('ORIGIN?', process.env.ORIGIN)
 // ORIGIN=http://localhost:3000
 
 export const google = new Google(
