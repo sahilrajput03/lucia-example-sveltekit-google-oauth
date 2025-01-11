@@ -20,5 +20,6 @@ sqlite3 sqlite.db
 Run the application:
 
 ```
+pnpm i
 pnpm dev
 ```
