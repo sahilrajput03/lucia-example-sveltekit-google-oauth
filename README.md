@@ -2,6 +2,8 @@
 
 ❤️ Redirect url need to be setup in google cloud console as "http://localhost:5173/login/google/callback"
 
+Forked from: [https://github.com/lucia-auth/example-sveltekit-google-oauth](https://github.com/lucia-auth/example-sveltekit-google-oauth)
+
 # Google OAuth example in SvelteKit
 
 Uses SQLite. Rate limiting is implemented using JavaScript `Map`.
