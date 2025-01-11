@@ -42,9 +42,9 @@ export async function GET(event: RequestEvent): Promise<Response> {
 	const email = claimsParser.getString("email");
 
 	const existingUser = getUserFromGoogleId(googleId);
-	if (existingUser !== null) {
+	if (existingUser) {
 		const sessionToken = generateSessionToken();
-		const session = createSession(sessionToken, existingUser.id);
+		const session = createSession(sessionToken, existingUser!.id);
 		setSessionTokenCookie(event, sessionToken, session.expiresAt);
 		return new Response(null, {
 			status: 302,
@@ -54,7 +54,19 @@ export async function GET(event: RequestEvent): Promise<Response> {
 		});
 	}
 
-	const user = createUser(googleId, email, name, picture);
+	const user = createUser(googleId, email, name, picture)!;
+	/**
+	  OUTPUT
+	  {
+		id: 1,
+		googleId: '115934040160586535115',
+		email: 'sahilrajput03@gmail.com',
+		name: 'Sahil Rajput',
+		picture: 'https://lh3.googleusercontent.com/a/ACg8ocL0AGuLK1FPIan_63GYs5TkxK3iJLeAio80eR6s2SrQJQ3qHFeb=s96-c'
+	  }
+	 */
+
+	console.log("user?", user)
 	const sessionToken = generateSessionToken();
 	const session = createSession(sessionToken, user.id);
 	setSessionTokenCookie(event, sessionToken, session.expiresAt);
