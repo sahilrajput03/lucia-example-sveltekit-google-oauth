@@ -1,5 +1,7 @@
 # Sahil
 
+Lucia docs - [https://lucia-auth.com/tutorials/google-oauth/sveltekit](https://lucia-auth.com/tutorials/google-oauth/sveltekit)
+
 Deployed at:
 
 - [https://lucia-example-sveltekit-google-oauth.onrender.com/login](https://lucia-example-sveltekit-google-oauth.onrender.com) (works tested)
@@ -7,10 +9,10 @@ Deployed at:
 
 Please add following urls to GCC (Google Cloud Console):
 
-- Authorized JavaScript origins:
+- _(You can skip adding these because it works without them as well)_ Authorized JavaScript origins:
   - https://lucia-example-sveltekit-google-oauth.onrender.com
   - https://lucia-example-sveltekit-google-oauth.vercel.app
-- Authorized redirect URIs:
+- ⭐ (MUST add these) **Authorized redirect URIs**:
   - http://localhost:5173/login/google/callback
   - https://lucia-example-sveltekit-google-oauth.onrender.com/login/google/callback
   - https://lucia-example-sveltekit-google-oauth.vercel.app/login/google/callback
