@@ -1,8 +1,13 @@
 # Sahil
 
-Lucia docs - [https://lucia-auth.com/tutorials/google-oauth/sveltekit](https://lucia-auth.com/tutorials/google-oauth/sveltekit)
+Lucia:
+
+- Docs: [https://lucia-auth.com/tutorials/google-oauth/sveltekit](https://lucia-auth.com/tutorials/google-oauth/sveltekit)
+- Github: [lucia-auth/example-sveltekit-google-oauth](https://github.com/lucia-auth/example-sveltekit-google-oauth)
 
 Deployed at:
+
+_Last tested on 11 Jan 2025_
 
 - [https://lucia-example-sveltekit-google-oauth.onrender.com/login](https://lucia-example-sveltekit-google-oauth.onrender.com) (works tested)
 - [https://lucia-example-sveltekit-google-oauth.vercel.app/login](https://lucia-example-sveltekit-google-oauth.vercel.app) (works tested)
