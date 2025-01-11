@@ -4,8 +4,7 @@
 	"private": true,
 	"scripts": {
 		"dev": "vite dev",
-		"build": "vite build; npm run setup:sqlitedb; ls",
-		"setup:sqlitedb": "./sqlite3-for-server/sqlite3 sqlite.db < setup.sql",
+		"build": "vite build",
 		"preview": "vite preview --host",
 		"check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
 		"check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch",
@@ -16,7 +15,6 @@
 		"@sveltejs/adapter-auto": "^3.0.0",
 		"@sveltejs/kit": "^2.0.0",
 		"@sveltejs/vite-plugin-svelte": "^3.0.0",
-		"@types/better-sqlite3": "^7.6.11",
 		"prettier": "^3.1.1",
 		"prettier-plugin-svelte": "^3.1.2",
 		"svelte": "^4.2.7",
@@ -31,7 +29,6 @@
 		"@oslojs/encoding": "^1.1.0",
 		"@pilcrowjs/db-query": "^0.0.2",
 		"@pilcrowjs/object-parser": "^0.0.4",
-		"arctic": "2.0.0-next.9",
-		"better-sqlite3": "^11.3.0"
+		"arctic": "2.0.0-next.9"
 	}
 }
