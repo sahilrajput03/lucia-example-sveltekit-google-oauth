@@ -1,5 +1,7 @@
 # Sahil
 
+[Learn Cookies](https://docs.google.com/document/d/1yOVBrqZAN5lstXzeIgN5wUq857dV92RU7RKBp8DXD1E/edit?tab=t.0)
+
 Lucia:
 
 - Docs: [https://lucia-auth.com/tutorials/google-oauth/sveltekit](https://lucia-auth.com/tutorials/google-oauth/sveltekit)

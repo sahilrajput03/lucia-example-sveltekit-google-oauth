@@ -4,8 +4,6 @@ import { sha256 } from "@oslojs/crypto/sha2";
 
 import type { RequestEvent } from "@sveltejs/kit";
 
-// session.id	session.user_id	session.expires_at
-
 export function validateSessionToken(token: string): SessionValidationResult {
 	const sessionId = encodeHexLowerCase(sha256(new TextEncoder().encode(token)));
 	const ssn = db.sessionDb.find(s => s.id === sessionId)
@@ -81,7 +79,7 @@ export function createSession(token: string, userId: number): Session {
 	return session;
 }
 
-export interface Session {
+export type Session = {
 	id: string;
 	expiresAt: Date;
 	userId: number;
