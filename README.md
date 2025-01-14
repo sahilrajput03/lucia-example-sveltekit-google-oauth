@@ -1,5 +1,11 @@
 # Sahil
 
+**Note: This project makes use of [`arctic` library](https://github.com/pilcrowonpaper/arctic).**
+
+**❤️ Checkout my latest - [svelte-express-google-login](https://github.com/sahilrajput03/svelte-express-google-login) on github.**
+
+**Also:** _I have made simple video of explanation of this project in my macbook as well. You can check this to quickly grasp this project as well._
+
 [Learn Cookies](https://docs.google.com/document/d/1yOVBrqZAN5lstXzeIgN5wUq857dV92RU7RKBp8DXD1E/edit?tab=t.0)
 
 Lucia:
