@@ -6,8 +6,7 @@
 
 	const signOut = async () => {
 		const response = await fetch("/logout", {
-			method: "POST",
-			credentials: "include" // This ensures cookies are sent with the request
+			method: "POST"
 		});
 		const body = await response.json();
 		console.log(body.message); // "logout successful"
