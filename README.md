@@ -2,6 +2,8 @@
 
 # Login with Google with `arctic` Library
 
+Deployed at [https://lucia-example-sveltekit-google-oauth.vercel.app](https://lucia-example-sveltekit-google-oauth.vercel.app/)
+
 **Note: This project makes use of [`arctic` library](https://github.com/pilcrowonpaper/arctic).**
 
 - Lucia:
