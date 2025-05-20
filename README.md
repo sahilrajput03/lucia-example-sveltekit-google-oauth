@@ -1,4 +1,6 @@
-# Sahil
+**❤️🚀 Checkout my latest - [svelte-express-google-login](https://github.com/sahilrajput03/svelte-express-google-login) on github.**
+
+# Login with Google with `arctic` Library
 
 **Note: This project makes use of [`arctic` library](https://github.com/pilcrowonpaper/arctic).**
 
@@ -6,8 +8,6 @@
   - Docs: [https://lucia-auth.com/tutorials/google-oauth/sveltekit](https://lucia-auth.com/tutorials/google-oauth/sveltekit)
   - Github: [lucia-auth/example-sveltekit-google-oauth](https://github.com/lucia-auth/example-sveltekit-google-oauth)
 - Google Login with - arctic Docs: [Click here](https://arcticjs.dev/providers/google)
-
-**❤️ Checkout my latest - [svelte-express-google-login](https://github.com/sahilrajput03/svelte-express-google-login) on github.**
 
 **Also:** _I have made simple video of explanation of this project in my macbook as well. You can check this to quickly grasp this project as well._
 
